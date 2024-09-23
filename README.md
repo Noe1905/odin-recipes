@@ -1,4 +1,4 @@
-Odin Recipes Project
+# Odin Recipes Project
 
 This is my first project from The Odin Project. As part of the TOP curriculum, I built a basic recipe website using HTML. This project showcases my ability to:
 
