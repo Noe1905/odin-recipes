@@ -3,18 +3,23 @@ body {
     box-sizing: border-box;
 }
 
+.space {
+    height: 10px;
+}
+
 .title {
     width: 50%;
     height: auto;
-    padding: 2px;
+    padding: 10px;
     margin: 0 auto;
     background-color: rgb(173, 20, 20);
 }
 
 h1 {
     text-align: center;
-    color: whitesmoke ;
+    color: whitesmoke;
     font-size: 48px;
+    margin-bottom: 20px;
 }
 
 h2 {
@@ -24,7 +29,19 @@ h2 {
     text-align: center;
 }
 
-.intros {
+.subtitle {
+    width: 20%;
+    height: auto;
+    padding: 5px;
+    margin: 0 auto;
+    border: dashed;
+    display: block;
+    background-color:rgb(173, 20, 20);
+    color: white ;
+    text-align: center;
+}
+
+p {
     width: 50%;
     margin: 0 auto;
     text-align: justify;
@@ -38,9 +55,10 @@ h2 {
     display: block;
 }
 
-h3 {
-    background-color:rgb(173, 20, 20) ;
-    color: white ;
+.photo {
+    width: 30%;
+    margin: 10px auto;
+    display: block;
 }
 
 .attention {
@@ -64,8 +82,21 @@ h3 {
     font-style: italic;
 }
 
-ul {
+.mainlist {
     list-style-type: none;
     text-align: center;
     padding: 0;
+}
+
+.ingredients {
+    width: 20%;
+    margin: 10px auto;
+    padding: 5px;
+    text-align: left;
+}
+
+.steps {
+    width: 50%;
+    margin: 0 auto;
+    text-align: justify;
 }
