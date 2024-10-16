@@ -43,7 +43,7 @@ h2 {
 
 p {
     width: 50%;
-    margin: 0 auto;
+    margin: 15px auto;
     text-align: justify;
     font-size: 18px;
 }
@@ -51,7 +51,7 @@ p {
 .main {
     width: 50%;
     height: 20% ;
-    margin: 0 auto;
+    margin: 10px auto;
     display: block;
 }
 
@@ -77,8 +77,15 @@ p {
 .recipe {
     border: dotted;
     padding: 3px;
-    margin: 2px;
+    margin: 2px auto;
     display: inline-block;
+    font-style: italic;
+}
+
+.home {
+    border: dotted;
+    margin: 0px auto;
+    width: 30%;
     font-style: italic;
 }
 
